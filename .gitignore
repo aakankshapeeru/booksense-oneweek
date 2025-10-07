@@ -1,0 +1,51 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# macOS
+.DS_Store
+
+# PyTorch / models
+models/*.pt
+models/*.pth
+models/*.pkl
+models/*.joblib
+
+# Data
+data/*.csv
+data/*.json
+data/*.parquet
+
+# Logs
+logs/
+mlruns/
+*.log
+
+# VSCode
+.vscode/

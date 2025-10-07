@@ -1,0 +1,17 @@
+
+fastapi
+uvicorn
+pydantic
+scikit-learn
+pandas
+numpy
+matplotlib
+plotly
+scipy
+streamlit
+joblib
+torch
+torchaudio; platform_system != "Darwin"
+torchvision; platform_system != "Darwin"
+# For macOS CPU-only Torch wheels, user may need: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+shap
